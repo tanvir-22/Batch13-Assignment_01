@@ -64,6 +64,9 @@ ul a{
     margin:16px auto;
     padding: 12px 8px;
 }
+.hero-btn-container button{
+    margin-right: 16px;
+}
 .hero-section h1{
     font-size: 72px;
     font-weight: 700;
@@ -206,4 +209,43 @@ ul a{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+footer{
+    margin-top: 120px;
+    background-color: #001931;
+    color: white;
+}
+footer .footer-container{
+    padding-top: 120px;
+    
+}
+.fotCon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+.copyRight{
+    margin-top: 30px;
+    text-align: center;
+   padding-bottom: 30px;
+   font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+}
+.social-link p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.social-link i{
+    font-size: 20px;
+    margin-right: 16px;
+}
+button:hover{
+    cursor: pointer;
+
+}
+.seebtn:hover{
+    cursor: pointer;
 }

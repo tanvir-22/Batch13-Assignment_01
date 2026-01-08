@@ -15,7 +15,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 16px 0px;
+    padding: 16px;
     align-items: center;
 }
 nav ul{
@@ -178,4 +178,32 @@ ul a{
     line-height: 20px;
     color: #001931;
     
+}
+.think-section{
+    padding-top: 120px;
+    text-align: center;
+}
+.think-container{
+        background-color: #F7F6F2;
+        padding: 80px 40px;
+}
+.think-header h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+} 
+.think-header p{
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.get{
+    margin-bottom: 16px;
+}
+.think-btn-and-footnote p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
